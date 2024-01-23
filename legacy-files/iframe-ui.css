@@ -1,0 +1,1163 @@
+/* === FILE PPURPOSE ===
+The following styles are used to edit content which is rendered to the MyAccount site
+via an iFrame, which for its most part is controlled and a default feature of Self/Granicus.
+*/
+
+header h1 {
+  font-size: 1.25em;
+}
+.account-highlight-box {
+  margin: 0 0 2em 0;
+}
+
+.panel-info > .panel-heading:hover {
+  background-color: #00979f;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.text-success {
+  color: #fff !important;
+}
+
+#service_list_container .panel-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.account-highlight {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5em;
+  background-color: #e6e6e6;
+}
+
+.account-highlight-lower {
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0.5em;
+  background-color: #d4ecfc;
+}
+
+.account-highlight-warning {
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  background-color: none;
+  color: #000;
+  font-weight: bold;
+}
+.account-highlight-warning.inline {
+  font-size: 1em;
+  padding: 0.15em;
+}
+.payments-list {
+  display: none;
+}
+
+.payments-list.first-year {
+  display: table-row-group;
+}
+
+.payments-click {
+  cursor: pointer;
+}
+
+.ccc-badge {
+  float: right;
+}
+
+.ccc-badge-text {
+  padding: 10px;
+  background-color: #e6e6e6;
+  display: inline-block;
+}
+
+.ccc-badge-highlight {
+  padding: 10px;
+  background-color: #d4ecfc;
+  font-weight: 700;
+  float: right;
+}
+
+.section-link {
+  cursor: pointer;
+}
+
+.explanation-click {
+  background-color: #e6e6e6;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.explanation-box {
+  background-color: #d4ecfc;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+
+.explanation-info {
+  padding-bottom: 1.25em;
+}
+
+.numbers {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.nav {
+  padding-left: 15px;
+}
+
+.col-md-12:first-of-type {
+  margin-bottom: 1em;
+}
+
+.col-md-12:first-of-type p {
+  margin: 0.5em 0;
+}
+
+.item div.row {
+  padding-top: 0;
+}
+div.row:first-of-type {
+  padding-top: 0;
+}
+
+div.explanation-box div.row {
+  padding-top: 0;
+}
+
+#login.btn-default {
+  background-color: #3b3383;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #156313;
+  border-color: #3b3383;
+}
+
+.btn.btn-primary,
+.btn.btn-af,
+.btn.btn-default {
+  background-color: #00979f;
+  border-color: #00979f;
+  color: #fff;
+}
+
+.btn.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn.btn-af:hover,
+.btn.btn-default:hover {
+  background-color: #3b3383;
+  border-color: #3b3383;
+  color: #fff;
+}
+
+.callout-box:hover {
+  cursor: pointer;
+  background-color: #3b3383;
+  text-decoration: none;
+  color: #fff;
+}
+
+.action {
+  background-color: #3b3383;
+}
+
+.account-highlight-lower {
+  background-color: #d3d1e3;
+  font-size: 1.25em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+a {
+  color: #00979f;
+}
+
+.callout-box.action h2,
+.callout-box:hover h2 {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+.ccc-badge-highlight {
+  background-color: #d3d1e3;
+  float: right;
+  font-weight: 700;
+  padding: 10px;
+}
+
+/* myaccount landing page */
+.panel-info > .panel-heading {
+  background-color: #3b3383;
+  border-color: #3b3383;
+  color: #fff;
+  border-radius: 0;
+}
+
+#service_list_container .panel-title {
+  color: #fff;
+}
+#service_list_container .panel-info {
+  border: 1px solid #3b3383;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.accounts-summary .btn-primary,
+#service_list_container .item .btn-primary {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.accounts-summary .account-id {
+  color: #3b3383;
+}
+
+/* detail page */
+
+.callout-box {
+  background-color: #00979f;
+  display: block;
+  margin: 1.5em 0;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+.callout-box.action {
+  background-color: #3b3383;
+}
+.callout-box h2 {
+  color: #fff;
+}
+.list-unstyled > li {
+  margin-bottom: 0.5em;
+}
+
+/* services list */
+
+.services .list-unstyled > ul > li {
+  margin-bottom: 0.5em;
+}
+
+.error-text {
+  color: red;
+}
+
+h3.serviceColumnLetter {
+  color: #fff !important;
+  background-color: #959595 !important;
+  padding: 6px 12px !important;
+  font-weight: 700 !important;
+}
+
+@media only screen and (min-width: 767px) {
+  h3.serviceColumnLetter {
+    color: #959595 !important;
+    background-color: unset !important;
+    padding: unset !important;
+  }
+}
+
+/* ===  MyAccount Style Updates 2020 - Digital First, Douglas McWhinnie === */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #7c2f86;
+}
+
+/* Account */
+.services_signup_link {
+  margin-top: 38px;
+}
+
+.services_signup_link > a.btn > i {
+  display: none;
+}
+
+.services_signup_link > a.btn.btn-primary {
+  display: inline-block;
+  min-width: 200px;
+  height: 45px;
+  background-color: #e2007a;
+  border: 3px solid #e2007a;
+  border-radius: 0;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.services_signup_link > a.btn.btn-primary:hover {
+  color: #fff;
+  background-color: #7c2f86;
+  border-color: #7c2f86;
+  text-decoration: underline;
+}
+
+.services_signup_link > a.btn.btn-primary:focus {
+  color: #e2007a;
+  background-color: #fff;
+  border-color: #e2007a;
+  text-decoration: underline;
+  border-style: dashed;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#service_list_container .panel-heading {
+  padding: 0;
+}
+
+#service_list_container .panel-heading h4.panel-title > a {
+  display: block;
+  padding: 10px 15px;
+}
+
+#service_list_container .panel-heading h4.panel-title > a:hover {
+  text-decoration: none;
+}
+
+/* Services */
+.search-row {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-row {
+    margin-bottom: 24px;
+  }
+
+  form.search-form {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+.search-form input[name="search"] {
+  border-radius: 0;
+  font-size: 1.6rem;
+  padding: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-form input[name="search"] {
+    font-size: 1.6rem;
+    padding: 10px 16px;
+  }
+}
+
+.search-form input[name="search"]:focus {
+  border-color: #e2007a;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.search-form .input-group-btn > button.btn-search[type="submit"] {
+  background-color: #3b2f86;
+  border-color: #3b2f86;
+  border-radius: 0;
+}
+
+.search-form .input-group-btn > button.btn-search[type="submit"]:hover {
+  background-color: #7c2f86;
+  border-color: #7c2f86;
+  z-index: 0;
+}
+
+.search-form .input-group-btn > button.btn-search i.fa-search {
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-form .input-group-btn > button.btn-search i.fa-search {
+    margin-right: 0.5em;
+  }
+}
+
+.filter-text {
+  margin-bottom: 0;
+}
+
+.all-services .service-groups ul.menu {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  margin-right: -0.5em;
+  margin-left: -0.5em;
+}
+
+/* Hide overflow scrollbar for Chrome, Safari and Opera */
+.all-services .service-groups ul.menu::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide overflow scrollbar for IE, Edge and Firefox */
+.all-services .service-groups ul.menu {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .all-services .service-groups ul.menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow-x: unset;
+  }
+}
+
+.all-services .service-groups ul.menu li {
+  list-style: none;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 0 165px;
+          flex: 3 0 165px;
+  padding: 0;
+  margin: 0.5em;
+}
+
+@media only screen and (min-width: 992px) {
+  .all-services .service-groups ul.menu li {
+    -webkit-box-flex: 3;
+        -ms-flex: 3 0 180px;
+            flex: 3 0 180px;
+    text-align: center;
+  }
+}
+
+.all-services .service-groups ul.menu li a.fsservice-pretty-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100% !important;
+  border: 3px solid #7c2f86;
+  color: #7c2f86;
+  border-radius: 0;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 992px) {
+  .all-services .service-groups ul.menu li a.fsservice-pretty-link {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.all-services .service-groups ul.menu li a.fsservice-pretty-link h2 {
+  font-size: 1.6rem;
+  color: #7c2f86;
+  margin-bottom: 0;
+}
+
+.all-services .service-groups ul.menu li a.fsservice-pretty-link.active {
+  background-color: #7c2f86 !important;
+  border: 3px solid #7c2f86 !important;
+  color: white;
+}
+
+.all-services .service-groups ul.menu li a.fsservice-pretty-link.active h2 {
+  color: white !important;
+}
+
+.all-services .service-groups ul.menu li a.fsservice-pretty-link:hover {
+  background-color: #7c2f86;
+  color: white;
+}
+
+.all-services .service-groups ul.menu li a.fsservice-pretty-link:hover h2 {
+  color: white;
+}
+
+/* Requests */
+.task_list_container
+  .input-group
+  > form
+  > input.btn.btn-primary[type="submit"] {
+  display: inline-block;
+  min-width: 200px;
+  height: 45px;
+  background-color: #e2007a;
+  border: 3px solid #e2007a;
+  border-radius: 0;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.task_list_container
+  .input-group
+  > form
+  > input.btn.btn-primary[type="submit"]:hover {
+  color: white;
+  background-color: #7c2f86;
+  color: #fff;
+  border-color: #7c2f86;
+  text-decoration: underline;
+}
+
+.task_list_container
+  .input-group
+  > form
+  > input.btn.btn-primary[type="submit"]:focus {
+    color: #e2007a;
+    background-color: #fff;
+    border-color: #e2007a;
+    text-decoration: underline;
+    border-style: dashed;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+/* === MyAccount Style Update: FORMS - Digital First | Douglas McWhinnie November 2020 === */
+.achieveforms-container header.formHeader {
+  padding: 0;
+}
+
+/* === Form Tab Navigation === */
+/* Mobile */
+@media only screen and (max-width:767px) {
+  .achieveforms-container .sectionsHead .sections-toggle-wrapper {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #d3d3d3;
+    border-bottom: none;
+  }
+
+  .achieveforms-container .sectionsHead .sections-toggle-wrapper .active-section-name {
+    top: unset;
+    font-size: 1rem;
+    padding-left: 1em;
+    color: #1c1b1a;
+  }
+
+  .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle {
+    height: 50px;
+    width: 50px;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #3b2f86;
+  }
+
+  .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle:hover {
+    background-color: #3b2f86;
+  }
+
+  .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle:focus {
+    background-color: #3b2f86;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle i {
+    color: #fff;
+  }
+
+  .achieveforms-container section.sectionsHead {
+    background-color: #f1f1f1;
+    border-radius: 0;
+    background-image: none;
+  }
+
+  .achieveforms-container .sectionsHead ul.sectionsHeadInner {
+    padding-left: 0;
+  }
+
+  .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active a.sectionNameTab {
+    border-bottom: 3px solid #3b2f86;
+    padding-left: 1em;
+  }
+
+  .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active a.sectionNameTab:hover {
+    background-color: #fff;
+    border-bottom: 3px solid #3b2f86;
+    padding-left: 1em;
+  }
+
+  .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper a.sectionNameTab {
+    color: #1c1b1a;
+    padding-left: 1em;
+    border: none;
+  }
+
+  .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper a.sectionNameTab:hover,
+  .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper a.sectionNameTab:focus {
+    background-color: #d3d3d3;
+    border-bottom: none;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .achieveforms-container section.sectionsHead {
+    background-color: #f1f1f1;
+    border-radius: 0;
+    background-image: none;
+    border-bottom: 3px solid #3b2f86;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li > a {
+    background-color: #d3d3d3;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li.valid > a {
+    background-color: #060;
+    color: #fff;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li.invalid > a {
+    background-color: #b0171f;
+    color: #fff;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li > a:hover {
+    background-color: #3b2f86;
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li > a:focus {
+    background-color: #7c2f86;
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li.active a {
+    background-color: #3b2f86;
+    color: #fff;;
+    border: none;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li.active.invalid a {
+    background-color: #b0171f;
+    color: #fff;;
+    border: none;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li.active a:hover {
+    background-color: #3b2f86;
+    color: #fff;;
+    text-decoration: none;
+  }
+
+  .achieveforms-container section.sectionsHead .nav.nav-tabs li.active a:focus {
+    background-color: #3b2f86;
+    color: #fff;;
+    text-decoration: underline;
+  }
+}
+
+/* Form Elements - Generic Style Overrides */
+.achieveforms-container span.help-img-wrapper i.help-img:hover { /* element depricated apparently - Nov 20' */
+  color: #e2007a;
+}
+.achieveforms-container .help-text {
+  color: #7c2f86;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.achieveforms-container .all-sections .field {
+  padding-top: 0;
+}
+
+.achieveforms-container input[type="text"],
+.achieveforms-container textarea,
+.achieveforms-container input[type="password"],
+.achieveforms-container select,
+.achieveforms-container input[type="number"] {
+  border-radius: 0;
+}
+
+.achieveforms-container .input-group-addon {
+  border-radius: 0;
+}
+
+.achieveforms-container .postfix-wrapper.input-group-addon span.prefix,
+.achieveforms-container .prefix-wrapper.input-group-addon span.postfix {
+  border-radius: 0 !important;
+  border-color: #949494;
+}
+
+.achieveforms-container .prefix-wrapper span.prefix,
+.achieveforms-container .postfix-wrapper span.postfix {
+  border-radius: 0 !important;
+  border-color: #949494;
+}
+
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn {
+  color: #fff;
+  background-color: #e2007a;
+  border: 3px solid transparent;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 0;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  margin-bottom: 1em !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn {
+    font-size: 1rem;
+  }
+}
+
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn:hover {
+  color: #fff;
+  border-color: transparent;
+  background-color: #7c2f86;
+  text-decoration: underline;
+}
+
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn:focus {
+  color: #e2007a;
+  background-color: #fff;
+  border: 3px solid #e2007a;
+  text-decoration: underline;
+  border-style: dashed;
+  outline: none;
+}
+
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn i {
+  font-size: 0.6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn i {
+    font-size: 0.8rem;
+  }
+}
+
+.achieveforms-container .all-sections .field .icon-valid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.achieveforms-container label.error {
+  font-weight: 700;
+}
+
+.achieveforms-container label.error:before {
+  content: "\f06a";
+  font-family: "FontAwesome";
+  margin-right: 0.5em;
+}
+
+/* Form Style Overrides */
+.achieveforms-container input[type="text"]:focus,
+.achieveforms-container textarea:focus,
+.achieveforms-container input[type="password"]:focus,
+.achieveforms-container select:focus,
+.achieveforms-container input[type="number"]:focus {
+  border-width: 2px;
+  border-color: #e2007a;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.achieveforms-container textarea:focus + .input-group-addon {
+  border-width: 2px;
+  border-color: #e2007a;
+}
+
+.achieveforms-container input[type="text"].error:focus,
+.achieveforms-container textarea.error:focus,
+.achieveforms-container input[type="password"].error:focus,
+.achieveforms-container select.error:focus,
+.achieveforms-container input[type="number"].error:focus {
+  border-width: 2px;
+  border-color: #b0171f;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Password */
+.achieveforms-container input[type="password"].error:focus,
+.achieveforms-container input[type="password"]:focus {
+  border-color: #e2007a;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Checkbox & Radio */
+.achieveforms-container input[type="checkbox"],
+.achieveforms-container input[type="radio"] {
+  margin-bottom: 1em;
+}
+
+.achieveforms-container input[type="checkbox"] + label:before {
+  border-radius: 0;
+}
+
+.achieveforms-container input[type="radio"] + label:before {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.achieveforms-container input[type="checkbox"][class*="check"]:focus + label:before {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: #e2007a;
+  border-width: 2px;
+}
+
+.achieveforms-container input[type="radio"][class*="radio"]:focus + label:before {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: #e2007a;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+/* Checkbox & Radio - display as button */
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper:last-of-type,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper:last-of-type,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper:last-of-type,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper:last-of-type {
+  margin-bottom: 0;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"] + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"] + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"] + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"] + label.btn {
+  background-color: #eee;
+  border: 3px solid #eee;
+  color: #1c1b1a;
+  margin-bottom: 1em;
+  border-radius: 0;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:hover + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:hover + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:hover + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:hover + label.btn {
+  background-color: #3b2f86;
+  border-color: #3b2f86;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn  {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  background-color: #eee;
+  border-color: #e2007a;
+  color: #1c1b1a;
+  text-decoration: underline;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper  input[type="radio"]:checked + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper  input[type="radio"]:checked + label.btn {
+  color: #fff;
+  background-color: #060;
+  border-color: #060;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:checked:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:checked:focus + label.btn {
+  text-decoration: underline;
+  background-color: #060;
+  color: #fff;
+  border-color: #1e3a1e;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn {
+  border-color: #e2007a;
+  text-decoration: underline;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.achieveforms-container fieldset .radio-wrapper input[type=radio] + label.btn:before {
+  width: 0;
+}
+
+/* Range Slider */
+.achieveforms-container div.range-prefix,
+.achieveforms-container div.range-postfix {
+  border-radius: 0 !important;
+  border-bottom-style: solid !important;
+}
+
+.achieveforms-container div.noUi-handle {
+  background-color: #7c2f86;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.achieveforms-container .noUi-target:focus {
+  border-width: 3px;
+  border-color: #e2007a;
+}
+
+.achieveforms-container .noUi-handle.noUi-handle-lower:focus {
+  background-color: #3b2f86;
+  border-color: transparent;
+}
+
+/* Number */
+.achieveforms-container .all-sections .field .fieldContent input[type="number"].fieldInput.hasPrefix,
+.achieveforms-container .all-sections .field .fieldContent input[type="number"].fieldInput.hasPostfix {
+  border-radius: 0 !important;
+}
+
+.achieveforms-container div.fieldContent:focus-within .input-group-addon span.prefix,
+.achieveforms-container input[type="number"]:focus + .input-group-addon span.postfix {
+  border-width: 2px;
+  border-color: #e2007a;
+}
+
+/* Horizontal Rule */
+.achieveforms-container hr.non-input.line {
+  border-color: #3b2f86;
+}
+
+/* Button */
+.achieveforms-container button[data-type="button"].button {
+  color: #fff;
+  background-color: #3b2f86;
+  border: 3px solid transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  margin-bottom: 1em !important;
+}
+
+.achieveforms-container button[data-type="button"].button:hover {
+  color: #fff;
+  border-color: transparent;
+  background-color: #7c2f86;
+  text-decoration: underline;
+}
+
+.achieveforms-container button[data-type="button"].button:focus {
+  color: #7c2f86;
+  background-color: #fff;
+  border: 3px solid #7c2f86;
+  text-decoration: underline;
+  border-style: dashed;
+  outline: none;
+}
+
+/* HTML Element */
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] p a,
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] li a {
+  color: #1c1b1a;
+  text-decoration: underline;
+}
+
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] p a:hover,
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] li a:hover {
+  color: #e2007a;
+}
+
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] p a:focus,
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] li a:focus {
+  color: #e2007a;
+  outline: 1px dashed #e2007a;
+  padding: 0.25em;
+}
+
+/* Upload Element */
+.achieveforms-container .resumable-drop {
+  background-color: #fff;
+  border: 1px solid #808080;
+  border-top: 1px solid #808080 !important;
+  border-radius: 0;
+  padding: 2em 1em;
+  margin-bottom: 1em;
+}
+
+.achieveforms-container button[type="button"].upload-button {
+  border-radius: 0;
+}
+
+.achieveforms-container button[type="button"].upload-button:hover {
+  background-color: #7c2f86;
+}
+
+.achieveforms-container input[type="file"].resumable-browse-file:focus {
+  border: 1px solid #e2007a;
+  color: #e2007a;
+  background-color: #fff;;
+}
+
+/* Submission Buttons */
+.achieveforms-container .submission-message-btn-wrapper .save.btn,
+.achieveforms-container .submission-message-btn-wrapper .finish.btn {
+  color: #fff;
+  background-color: #e2007a;
+  border: 3px solid transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+}
+
+.achieveforms-container .submission-message-btn-wrapper .save.btn:hover,
+.achieveforms-container .submission-message-btn-wrapper .finish.btn:hover {
+  color: #fff;
+  background-color: #7c2f86;
+}
+
+.achieveforms-container .submission-message-btn-wrapper .save.btn:focus,
+.achieveforms-container .submission-message-btn-wrapper .finish.btn:focus {
+  color: #e2007a;
+  background-color: #fff;
+  border: 3px dashed #e2007a;
+}
+
+/* Static Text */
+.achieveforms-container div[data-field-type="staticText"] .staticText p:last-of-type {
+  margin-bottom: 0;
+}
+
+.achieveforms-container div[data-field-type="staticText"] .staticText p a {
+  color: #1c1b1a;
+  text-decoration: underline;
+}
+
+.achieveforms-container div[data-field-type="staticText"] .staticText p a:hover {
+  color: #e2007a;
+}
+
+.achieveforms-container div[data-field-type="staticText"] .staticText p a:focus {
+  color: #e2007a;
+  outline: 1px dashed #e2007a;
+  padding: 0.25em;
+}
+
+/* Sub Form */
+.achieveforms-container .fieldContent .subform button.launchSubform {
+  color: #fff;
+  background-color: #3b2f86;
+  border: 3px solid transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  margin-bottom: 1em !important;
+}
+
+.achieveforms-container .fieldContent .subform button.launchSubform:hover {
+  color: #fff;
+  border-color: transparent;
+  background-color: #7c2f86;
+  text-decoration: underline;
+}
+
+.achieveforms-container .fieldContent .subform button.launchSubform:focus {
+  color: #7c2f86;
+  background-color: #fff;
+  border: 3px solid #7c2f86;
+  text-decoration: underline;
+  border-style: dashed;
+  outline: none;
+}
