@@ -1,0 +1,75 @@
+.tempNote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-height: 250px;
+    background-color: var(--brand-primary);
+    padding: 1em;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#tempNoteClose {
+    background-color: var(--white);
+    border: 3px solid var(--white);
+    color: var(--brand-primary);
+}
+
+#tempNoteClose:hover {
+    background-color: var(--brand-primary);
+    border: 3px solid var(--white);
+    color: var(--white);
+}
+
+#tempNoteClose:focus {
+    background-color: var(--brand-quaternary);
+    border: 3px solid var(--brand-quaternary);
+    outline: none;
+    color: var(--white);
+}
+
+.tempNote--is-hidden {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.tempNote__copy {
+    color: var(--white);
+    margin-bottom: 0;
+}
+
+.tempNote__copy a {
+    color: var(--white);
+    text-decoration: underline;
+    outline: none;
+}
+
+.tempNote__copy a span {
+    font-size: 1.2rem;
+}
+
+.tempNote__copy a:hover,
+.tempNote__copy a:focus {
+    color: var(--brand-quaternary);
+    text-decoration: underline;
+}
+
+.tempNote__copy button {
+    margin-left: var(--margin-x-small);
+}
+
+.tempNote__copy button > span {
+    font-size: 1.2rem;
+    margin-left: var(--margin-x-small);
+}

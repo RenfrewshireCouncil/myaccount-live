@@ -1,0 +1,312 @@
+﻿@import url("base.css");
+
+header h1 {
+    font-size: 1.25em;
+}
+.account-highlight-box {
+    margin: 0 0 2em 0;
+}
+
+.account-highlight {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.5em;
+    background-color: #e6e6e6;
+}
+
+.account-highlight .helpmessage {
+    margin-bottom: 20px;
+}
+.account-highlight .helpmessage:last-child {
+    margin-bottom: 0;
+}
+
+.account-highlight-lower {
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0.5em;
+    background-color: #d4ecfc;
+}
+
+.account-highlight-warning {
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+    background-color: none;
+    color: #000;
+    font-weight: bold;
+}
+.account-highlight-warning.inline {
+    font-size: 1em;
+    padding: 0.15em;
+}
+
+/*
+Edited by dmcwhinnie (RenC - Digital First) 12/08/21 as a quick fix for Council Tax Payment Received Lists not showing.
+*/
+.payments-list {
+    display: table-row-group;
+}
+
+.payments-list.first-year {
+    display: table-row-group;
+}
+
+.payments-click {
+    cursor: pointer;
+}
+
+.ccc-badge {
+    float: right;
+}
+
+.ccc-badge-text {
+    padding: 10px;
+    background-color: #e6e6e6;
+    display: inline-block;
+}
+
+.ccc-badge-highlight {
+    padding: 10px;
+    background-color: #d4ecfc;
+    display: inline-block;
+    font-weight: 700;
+    float: right;
+}
+
+.section-link {
+    cursor: pointer;
+}
+
+.explanation-click {
+    background-color: #e6e6e6;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.explanation-box {
+    background-color: #d4ecfc;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+.explanation-info {
+    padding-bottom: 1.25em;
+}
+
+.numbers {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.nav {
+    padding-left: 15px;
+}
+
+.col-md-12:first-of-type {
+    margin-bottom: 1em;
+}
+
+.col-md-12:first-of-type p {
+    margin: 0.5em 0;
+}
+
+div.row {
+    padding-top: 2em;
+}
+
+div.row:first-of-type {
+    padding-top: 0;
+}
+
+div.explanation-box div.row {
+    padding-top: 0;
+}
+
+.btn,
+.btn-primary,
+.btn.btn-primary,
+#login.btn-default {
+    background-color: #3b3383;
+    border-color: #177015;
+    color: #fff !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #156313;
+    border-color: #3b3383;
+}
+.btn.btn-primary,
+.btn.btn-af,
+.btn.btn-default {
+    background-color: #00979f;
+    border-color: #00979f;
+    color: #fff !important;
+}
+.btn.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn.btn-af:hover,
+.btn.btn-default:hover {
+    background-color: #3b3383;
+    border-color: #3b3383;
+    color: #fff;
+}
+.callout-box:hover {
+    cursor: pointer;
+    background-color: #3b3383;
+    text-decoration: none;
+    color: #fff;
+}
+.action {
+    background-color: #3b3383;
+}
+.account-highlight-lower {
+    background-color: #d3d1e3;
+    font-size: 1.25em;
+    padding: 0.5em;
+    text-align: center;
+}
+a {
+    color: #00979f;
+}
+.callout-box.action h2,
+.callout-box:hover h2 {
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+.ccc-badge-highlight {
+    background-color: #d3d1e3;
+    display: inline-block;
+    float: right;
+    font-weight: 700;
+    padding: 10px;
+}
+
+/** myaccount landing page **/
+.panel-info > .panel-heading {
+    background-color: #3b3383;
+    border-color: #3b3383;
+    color: #fff;
+    border-radius: 0;
+}
+
+#service_list_container .panel-title {
+    color: #fff;
+}
+#service_list_container .panel-info {
+    border: 1px solid #3b3383;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.accounts-summary .btn-primary {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.accounts-summary .account-id {
+    color: #3b3383;
+}
+
+/** detail page **/
+.nav-tabs {
+    text-align: center;
+}
+
+.callout-box,
+.nav-tabs li a {
+    background-color: #00979f;
+    display: block;
+    margin: 1.5em 0;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+.callout-box.action,
+.nav-tabs li.active a {
+    background-color: #3b3383;
+}
+.callout-box h2,
+.nav-tabs li a,
+.nav-tabs li.active a {
+    color: #fff;
+    border-radius: 0;
+}
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a:focus,
+.nav-tabs li a:hover {
+    background-color: #3b3383;
+    color: #fff;
+}
+.nav-tabs li a {
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    margin: 0.75em 0;
+    padding: 0.6em;
+    border: none;
+}
+ul.nav-tabs {
+    border: none;
+}
+
+.rent-account-info .row:nth-child(even) {
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rent-account-info .row:nth-child(odd) {
+    background: #fff;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*.achieveforms-container .sectionsHead {
+    background: #00979F;
+    position: relative;
+    box-shadow: none;
+	color:#fff;
+}
+.achieveforms-container .sectionsHead li.sectionNameWrapper:hover,.achieveforms-container .sectionsHead li.sectionNameWrapper a:hover {
+    background: #3b3383;
+    position: relative;
+    box-shadow: none;
+	color:#fff!important;
+	border:none;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper a{
+	font-size:18px;
+	padding:10px;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active {
+    color: #fff;
+	background: #3b3383;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab {
+    border:none;
+	background: #3b3383;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.valid {
+    color: #fff;
+}
+.achieveforms-container .all-sections .field .fieldContent .fieldName, .achieveforms-container .all-sections .field .fieldContent .subform-summary,.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label,._AF input[type=date], ._AF input[type=datetime-local], ._AF input[type=datetime], ._AF input[type=email], ._AF input[type=month], ._AF input[type=number], ._AF input[type=password], ._AF input[type=search], ._AF input[type=tel], ._AF input[type=text], ._AF input[type=time], ._AF input[type=url], ._AF input[type=week], ._AF select, ._AF textarea, .achieveforms-container input[type=date], .achieveforms-container input[type=datetime-local], .achieveforms-container input[type=datetime], .achieveforms-container input[type=email], .achieveforms-container input[type=month], .achieveforms-container input[type=number], .achieveforms-container input[type=password], .achieveforms-container input[type=search], .achieveforms-container input[type=tel], .achieveforms-container input[type=text], .achieveforms-container input[type=time], .achieveforms-container input[type=url], .achieveforms-container input[type=week], .achieveforms-container select, .achieveforms-container textarea,.achieveforms-container .fillinButtons .btn,.btn{
+	font-size:18px;
+}*/

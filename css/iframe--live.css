@@ -1,0 +1,1158 @@
+@import url(variables--live.css);
+@import url(mtest--live.css);
+@import url(buttons--live-280222.min.css); /* || General Styling for iFrames */
+body {
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+li a,
+p a {
+    color: var(--black);
+    text-decoration: underline;
+}
+li a:hover,
+p a:hover {
+    color: var(--brand-quaternary);
+}
+li a:focus,
+p a:focus {
+    color: var(--brand-quaternary);
+    outline: 1px solid var(--brand-quaternary);
+    outline-offset: 3px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+.btn {
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+}
+.form-control,
+.input-group-addon {
+    font-size: 16px;
+}
+.achieveforms-container .fillinButtons .btn.cancelbutton,
+.achieveforms-container .fillinButtons .btn.nextbutton,
+.achieveforms-container .fillinButtons .btn.previousbutton,
+.achieveforms-container .fillinButtons .btn.submitbutton {
+    box-shadow: none;
+    background-color: var(--brand-primary);
+    padding: 1em;
+    color: var(--white);
+    transition: none;
+}
+.achieveforms-container .fillinButtons .btn.cancelbutton:hover,
+.achieveforms-container .fillinButtons .btn.nextbutton:hover,
+.achieveforms-container .fillinButtons .btn.previousbutton:hover,
+.achieveforms-container .fillinButtons .btn.submitbutton:hover {
+    background-color: var(--brand-quaternary);
+    text-decoration: underline;
+}
+.achieveforms-container .fillinButtons .btn.cancelbutton:focus,
+.achieveforms-container .fillinButtons .btn.nextbutton:focus,
+.achieveforms-container .fillinButtons .btn.previousbutton:focus,
+.achieveforms-container .fillinButtons .btn.submitbutton:focus {
+    outline: 1px solid var(--brand-primary);
+    outline-offset: 3px;
+    text-decoration: underline;
+}
+.account-highlight-box {
+    margin: 0 0 var(--margin-medium) 0;
+}
+.panel-info > .panel-heading:hover {
+    background-color: var(--brand-tertiary);
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+.text-success {
+    color: var(--white) !important;
+}
+#service_list_container .panel-title {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 22px;
+}
+.account-highlight {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background-color: #e6e6e6;
+}
+.account-highlight-lower {
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0.5em;
+    background-color: #d4ecfc;
+}
+.account-highlight-warning {
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+    background-color: none;
+    color: var(--black);
+    font-weight: 700;
+}
+.account-highlight-warning.inline {
+    font-size: 1em;
+    padding: 0.15em;
+}
+.payments-list {
+    display: none;
+}
+.payments-list.first-year {
+    display: table-row-group;
+}
+.payments-click {
+    cursor: pointer;
+}
+.ccc-badge {
+    float: right;
+}
+.ccc-badge-text {
+    padding: 10px;
+    background-color: #e6e6e6;
+    display: inline-block;
+}
+.ccc-badge-highlight {
+    padding: 10px;
+    background-color: #d4ecfc;
+    font-weight: 700;
+    float: right;
+}
+.section-link {
+    cursor: pointer;
+}
+.explanation-click {
+    background-color: #e6e6e6;
+    padding: 10px;
+    cursor: pointer;
+}
+.explanation-box {
+    background-color: #d4ecfc;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.explanation-info {
+    padding-bottom: 1.25em;
+}
+.numbers {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.nav {
+    padding-left: 15px;
+}
+.col-md-12:first-of-type {
+    margin-bottom: 1em;
+}
+.col-md-12:first-of-type p {
+    margin: 0.5em 0;
+}
+.item div.row {
+    padding-top: 0;
+}
+div.row:first-of-type {
+    padding-top: 0;
+}
+div.explanation-box div.row {
+    padding-top: 0;
+}
+.callout-box:hover {
+    cursor: pointer;
+    background-color: var(--brand-primary);
+    text-decoration: none;
+    color: var(--white);
+}
+.action {
+    background-color: var(--brand-primary);
+}
+.account-highlight-lower {
+    background-color: #d3d1e3;
+    font-size: 1.25em;
+    padding: 0.5em;
+    text-align: center;
+}
+.callout-box.action h2,
+.callout-box:hover h2 {
+    color: var(--white);
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+.ccc-badge-highlight {
+    background-color: #d3d1e3;
+    float: right;
+    font-weight: 700;
+    padding: 10px;
+}
+.panel-info > .panel-heading {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    color: var(--white);
+    border-radius: 0;
+}
+#service_list_container .panel-title {
+    color: var(--white);
+}
+#service_list_container .panel-info {
+    border: 1px solid var(--brand-primary);
+    border-radius: 0;
+    box-shadow: none;
+}
+#service_list_container .item .btn-primary,
+.accounts-summary .btn-primary {
+    margin-top: 5px;
+    width: 100%;
+}
+.accounts-summary .account-id {
+    color: var(--brand-primary);
+}
+.services_signup_link {
+    margin-top: 38px;
+}
+.services_signup_link > a.btn > i {
+    display: none;
+}
+.services_signup_link > a.btn.btn-primary {
+    display: inline-block;
+    min-width: 200px;
+    height: 45px;
+    background-color: var(--brand-quaternary);
+    border: 3px solid var(--brand-quaternary);
+    border-radius: 0;
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: none;
+}
+.services_signup_link > a.btn.btn-primary:hover {
+    color: var(--white);
+    background-color: var(--brand-secondary);
+    border-color: var(--brand-secondary);
+    text-decoration: underline;
+}
+.services_signup_link > a.btn.btn-primary:focus {
+    color: var(--brand-quaternary);
+    background-color: var(--white);
+    border-color: var(--brand-quaternary);
+    text-decoration: underline;
+    border-style: dashed;
+    outline: 0;
+    box-shadow: none;
+}
+#service_list_container .panel-heading {
+    padding: 0;
+}
+#service_list_container .panel-heading h4.panel-title > a {
+    display: block;
+    padding: 10px 15px;
+}
+#service_list_container .panel-heading h4.panel-title > a:hover {
+    text-decoration: none;
+}
+.callout-box {
+    background-color: var(--brand-tertiary);
+    display: block;
+    margin: 1.5em 0;
+    padding: var(--padding-small);
+    text-align: center;
+    text-decoration: none;
+}
+.callout-box.action {
+    background-color: var(--brand-primary);
+}
+.callout-box h2 {
+    color: var(--white);
+}
+.list-unstyled > li {
+    margin-bottom: var(--margin-x-small);
+}
+.services .list-unstyled > ul > li {
+    margin-bottom: var(--margin-x-small);
+}
+.form-name .form-link-color {
+    color: var(--black);
+}
+.form-name:hover .form-link-color {
+    color: var(--brand-quaternary);
+}
+.form-name:focus .form-link-color {
+    color: var(--brand-quaternary);
+    outline: 1px solid var(--brand-quaternary);
+    outline-offset: 3px;
+}
+.error-text {
+    color: red;
+}
+h3.serviceColumnLetter {
+    color: var(--white) !important;
+    background-color: #959595 !important;
+    padding: 6px 12px !important;
+    font-weight: 700 !important;
+}
+@media only screen and (min-width: 767px) {
+    h3.serviceColumnLetter {
+        color: #959595 !important;
+        background-color: unset !important;
+        padding: unset !important;
+    }
+}
+.search-row {
+    margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) {
+    .search-row {
+        margin-bottom: var(--margin-small);
+    }
+    form.search-form {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+.search-form input[name="search"] {
+    border-radius: 0;
+    font-size: 1.6rem;
+    padding: 8px;
+}
+@media only screen and (min-width: 768px) {
+    .search-form input[name="search"] {
+        font-size: 1.6rem;
+        padding: 10px 16px;
+    }
+}
+.search-form input[name="search"]:focus {
+    border-color: var(--brand-quaternary);
+    box-shadow: none;
+}
+.search-form .input-group-btn > button.btn-search[type="submit"] {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    border-radius: 0;
+}
+.search-form .input-group-btn > button.btn-search[type="submit"]:hover {
+    background-color: var(--brand-secondary);
+    border-color: var(--brand-secondary);
+    z-index: 0;
+}
+.search-form .input-group-btn > button.btn-search i.fa-search {
+    font-size: 1.6rem;
+}
+@media only screen and (min-width: 768px) {
+    .search-form .input-group-btn > button.btn-search i.fa-search {
+        margin-right: var(--margin-x-small);
+    }
+}
+.filter-text {
+    margin-bottom: 0;
+}
+.all-services .service-groups ul.menu {
+    padding: 0;
+    display: flex;
+    overflow-x: scroll;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+}
+.all-services .service-groups ul.menu::-webkit-scrollbar {
+    display: none;
+}
+.all-services .service-groups ul.menu {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+@media only screen and (min-width: 768px) {
+    .all-services .service-groups ul.menu {
+        flex-wrap: wrap;
+        overflow-x: unset;
+    }
+}
+.all-services .service-groups ul.menu li {
+    list-style: none;
+    flex: 3 0 165px;
+    padding: 0;
+    margin: 0.5em;
+}
+@media only screen and (min-width: 992px) {
+    .all-services .service-groups ul.menu li {
+        flex: 3 0 180px;
+        text-align: center;
+    }
+}
+.all-services .service-groups ul.menu li a.fsservice-pretty-link {
+    display: flex;
+    align-items: center;
+    height: 100% !important;
+    border: 3px solid var(--brand-secondary);
+    color: var(--brand-secondary);
+    border-radius: 0;
+    padding: 1em;
+}
+@media only screen and (min-width: 992px) {
+    .all-services .service-groups ul.menu li a.fsservice-pretty-link {
+        justify-content: center;
+    }
+}
+.all-services .service-groups ul.menu li a.fsservice-pretty-link h2 {
+    font-size: 1.6rem;
+    color: var(--brand-secondary);
+    margin-bottom: 0;
+}
+.all-services .service-groups ul.menu li a.fsservice-pretty-link.active {
+    background-color: var(--brand-secondary) !important;
+    border: 3px solid var(--brand-secondary) !important;
+    color: var(--white);
+}
+.all-services .service-groups ul.menu li a.fsservice-pretty-link.active h2 {
+    color: var(--white) !important;
+}
+.all-services .service-groups ul.menu li a.fsservice-pretty-link:hover {
+    background-color: var(--brand-secondary);
+    color: var(--white);
+}
+.all-services .service-groups ul.menu li a.fsservice-pretty-link:hover h2 {
+    color: var(--white);
+}
+#app-content h1 {
+    color: var(--brand-tertiary);
+}
+@media only screen and (min-width: 992px) {
+    .task_list_container.requestsTab {
+        padding: var(--margin-medium);
+    }
+}
+.task_list_container.requestsTab .input-group-addon {
+    border-radius: 0;
+}
+.task_list_container.requestsTab .form-control.filterTasks {
+    border-radius: 0;
+}
+.task_list_container.requestsTab .form-control.filterTasks:focus {
+    border-color: var(--brand-quaternary);
+    box-shadow: none;
+}
+.task_list_container.requestsTab select.form-control {
+    border-radius: 0;
+}
+@media only screen and (max-width: 767px) {
+    .task_list_container.requestsTab .dataTables_filter label,
+    .task_list_container.requestsTab .dataTables_length label {
+        font-weight: 400;
+    }
+}
+.task_list_container.requestsTab select.form-control:focus {
+    border-color: var(--brand-quaternary);
+    box-shadow: none;
+}
+.task_list_container.requestsTab #taskTable_filter input[type="search"] {
+    border-radius: 0;
+}
+.task_list_container.requestsTab #taskTable_filter input[type="search"]:focus {
+    border-color: var(--brand-quaternary);
+    box-shadow: none;
+}
+@media only screen and (max-width: 767px) {
+    #app-content #taskTable_length {
+        float: left;
+    }
+    #app-content #taskTable_filter {
+        margin-top: 0;
+    }
+    #app-content #taskTable_filter input[type="search"] {
+        width: auto;
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #taskTable thead th.sorting:focus,
+    #taskTable thead th.sorting_asc:focus,
+    #taskTable thead th.sorting_desc:focus {
+        outline: 1px solid var(--brand-quaternary);
+    }
+}
+#taskTable {
+    margin-bottom: 1em;
+}
+#taskTable .btn {
+    width: 100%;
+}
+#taskTable .btn.btn-info.btn-sm {
+    display: inline-block;
+    position: relative;
+    transform: perspective(1px) translateZ(0);
+    transition-property: color;
+    transition-duration: 0.3s;
+    background-color: var(--brand-secondary);
+}
+#taskTable .btn.btn-info.btn-sm::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--brand-quaternary);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+#taskTable .btn.btn-info.btn-sm:hover::before {
+    transform: scaleX(1);
+}
+@media only screen and (prefers-reduced-motion) {
+    #taskTable .btn.btn-info.btn-sm {
+        transition: none;
+    }
+    #taskTable .btn.btn-info.btn-sm::before {
+        transition: none;
+    }
+}
+#taskTable .btn.btn-info.btn-sm:focus {
+    color: var(--white);
+    background-color: var(--brand-quaternary);
+    outline-offset: 3px;
+    outline-color: var(--brand-quaternary);
+}
+#taskTable .btn.btn-success.btn-sm:focus {
+    color: var(--white);
+    background-color: #5cb85c;
+    outline-offset: 3px;
+    outline-color: #5cb85c;
+}
+#taskTable .btn.btn-success.btn-sm i.fa.fa-arrow-right {
+    margin-left: 0.5em;
+}
+#taskTable .btn.btn-info.btn-sm i.fa.fa-search {
+    margin-right: 0.5em;
+}
+#app-content #taskTable_paginate.dataTables_paginate .paginate_button.current {
+    border: 3px solid var(--grey);
+    border-radius: 0;
+    background-color: var(--white);
+    background-image: none;
+    font-weight: 600;
+}
+#app-content #taskTable_paginate .paginate_button.next:focus,
+#app-content #taskTable_paginate .paginate_button.previous:focus {
+    outline: 1px solid var(--brand-quaternary);
+}
+#app-content #taskTable_paginate .paginate_button.current:focus {
+    outline: 0;
+    border-color: var(--brand-quaternary);
+}
+@media only screen and (max-width: 768px) {
+    #app-content .task_list_container.requestsTab .input-group {
+        width: 100%;
+    }
+}
+.task_list_container.requestsTab input[type="submit"].btn.btn-primary.form-control {
+    margin-top: var(--margin-medium);
+    background-color: var(--brand-primary);
+}
+.task_list_container.requestsTab input[type="submit"].btn.btn-primary.form-control {
+    height: 45px;
+}
+@media only screen and (min-width: 768px) {
+    .task_list_container.requestsTab input[type="submit"].btn.btn-primary.form-control {
+        margin-top: 0;
+        height: unset;
+    }
+}
+.task_list_container.requestsTab input[type="submit"].btn.btn-primary.form-control:hover {
+    background-color: var(--brand-quaternary);
+}
+.task_list_container.requestsTab input[type="submit"].btn.btn-primary.form-control:focus {
+    color: var(--white);
+    background-color: var(--brand-quaternary);
+    outline-offset: 3px;
+    outline-color: var(--brand-quaternary);
+}
+.achieveforms-container header.formHeader {
+    padding: 0;
+}
+body._AF a,
+body._AF div,
+body._AF h1,
+body._AF h2,
+body._AF h3,
+body._AF h4,
+body._AF h5,
+body._AF p,
+body._AF span:not(.fa),
+div._AF a,
+div._AF div,
+div._AF h1,
+div._AF h2,
+div._AF h3,
+div._AF h4,
+div._AF h5,
+div._AF p,
+div._AF span:not(.fa),
+html._AF a,
+html._AF div,
+html._AF h1,
+html._AF h2,
+html._AF h3,
+html._AF h4,
+html._AF h5,
+html._AF p,
+html._AF span:not(.fa) {
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+@media only screen and (max-width: 767px) {
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d3d3d3;
+        border-bottom: none;
+    }
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper .active-section-name {
+        top: unset;
+        font-size: 1rem;
+        padding-left: 1em;
+        color: var(--black);
+    }
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle {
+        height: 50px;
+        width: 50px;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        background-color: var(--brand-primary);
+    }
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle:hover {
+        background-color: var(--brand-primary);
+    }
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle:focus {
+        background-color: var(--brand-primary);
+        box-shadow: none;
+    }
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper .navbar-toggle i {
+        color: var(--white);
+    }
+    .achieveforms-container section.sectionsHead {
+        background-color: #f1f1f1;
+        border-radius: 0;
+        background-image: none;
+    }
+    .achieveforms-container .sectionsHead ul.sectionsHeadInner {
+        padding-left: 0;
+    }
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active button.sectionNameTab {
+        border-bottom: 3px solid var(--brand-primary);
+        padding-left: 1em;
+    }
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active button.sectionNameTab:hover {
+        background-color: var(--white);
+        border-bottom: 3px solid var(--brand-primary);
+        padding-left: 1em;
+    }
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper button.sectionNameTab {
+        color: var(--black);
+        padding-left: 1em;
+        border: none;
+    }
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper button.sectionNameTab:focus,
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper button.sectionNameTab:hover {
+        background-color: #d3d3d3;
+        border-bottom: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .achieveforms-container section.sectionsHead {
+        background-color: #f1f1f1;
+        border-radius: 0;
+        background-image: none;
+        border-bottom: 3px solid var(--brand-primary);
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs {
+        padding: 0;
+        border-bottom: none;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li > button.sectionNameTab {
+        background-color: #d3d3d3;
+        border-radius: 0;
+        border: none;
+        margin: 0;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li.valid > button.sectionNameTab {
+        background-color: #060;
+        color: var(--white);
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li.invalid > button.sectionNameTab {
+        background-color: #b0171f;
+        color: var(--white);
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li > button.sectionNameTab:hover {
+        background-color: var(--brand-primary);
+        color: var(--white);
+        text-decoration: underline;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li > button.sectionNameTab:focus {
+        background-color: var(--brand-secondary);
+        color: var(--white);
+        text-decoration: underline;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li.active button.sectionNameTab {
+        background-color: var(--brand-primary);
+        color: var(--white);
+        border: none;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li.active.invalid button.sectionNameTab {
+        background-color: #b0171f;
+        color: var(--white);
+        border: none;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li.active button.sectionNameTab:hover {
+        background-color: var(--brand-primary);
+        color: var(--white);
+        text-decoration: none;
+    }
+    .achieveforms-container section.sectionsHead .nav.nav-tabs li.active button.sectionNameTab:focus {
+        background-color: var(--brand-primary);
+        color: var(--white);
+        text-decoration: underline;
+    }
+}
+.achieveforms-container .help-text {
+    color: var(--brand-secondary);
+    padding: 0;
+    margin-bottom: 1em;
+}
+.achieveforms-container .all-sections .field {
+    padding-top: 0;
+}
+.achieveforms-container input[type="number"],
+.achieveforms-container input[type="password"],
+.achieveforms-container input[type="text"],
+.achieveforms-container select,
+.achieveforms-container textarea {
+    border-radius: 0;
+}
+.achieveforms-container .input-group-addon {
+    border-radius: 0;
+}
+.achieveforms-container .postfix-wrapper.input-group-addon span.prefix,
+.achieveforms-container .prefix-wrapper.input-group-addon span.postfix {
+    border-radius: 0 !important;
+    border-color: #949494;
+}
+.achieveforms-container .postfix-wrapper span.postfix,
+.achieveforms-container .prefix-wrapper span.prefix {
+    border-radius: 0 !important;
+    border-color: #949494;
+}
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn {
+    color: var(--white);
+    background-color: var(--brand-quaternary);
+    border: 3px solid transparent;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+    text-shadow: none;
+    margin-bottom: 1em !important;
+}
+@media only screen and (min-width: 768px) {
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn {
+        font-size: 1rem;
+    }
+}
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn:hover {
+    color: var(--white);
+    border-color: transparent;
+    background-color: var(--brand-secondary);
+    text-decoration: underline;
+}
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn:focus {
+    color: var(--brand-quaternary);
+    background-color: var(--white);
+    border: 3px solid var(--brand-quaternary);
+    text-decoration: underline;
+    border-style: dashed;
+    outline: 0;
+}
+.achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn i {
+    font-size: 0.6rem;
+}
+@media only screen and (min-width: 768px) {
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons nav.form-actions-nav button.btn i {
+        font-size: 0.8rem;
+    }
+}
+.achieveforms-container .all-sections .field .icon-valid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+.achieveforms-container label.error {
+    font-weight: 700;
+}
+.achieveforms-container label.error:before {
+    content: "\f06a";
+    font-family: FontAwesome;
+    margin-right: var(--margin-x-small);
+}
+.achieveforms-container input[type="number"]:focus,
+.achieveforms-container input[type="password"]:focus,
+.achieveforms-container input[type="text"]:focus,
+.achieveforms-container select:focus,
+.achieveforms-container textarea:focus {
+    border-width: 2px;
+    border-color: var(--brand-quaternary);
+    box-shadow: none;
+}
+.achieveforms-container textarea:focus + .input-group-addon {
+    border-width: 2px;
+    border-color: var(--brand-quaternary);
+}
+.achieveforms-container input[type="number"].error:focus,
+.achieveforms-container input[type="password"].error:focus,
+.achieveforms-container input[type="text"].error:focus,
+.achieveforms-container select.error:focus,
+.achieveforms-container textarea.error:focus {
+    border-width: 2px;
+    border-color: #b0171f;
+    box-shadow: none;
+}
+.achieveforms-container input[type="password"].error:focus,
+.achieveforms-container input[type="password"]:focus {
+    border-color: var(--brand-quaternary);
+    box-shadow: none;
+}
+.achieveforms-container input[type="checkbox"],
+.achieveforms-container input[type="radio"] {
+    margin-bottom: var(--margin-small);
+}
+.achieveforms-container input[type="checkbox"] + label:before {
+    border-radius: 0;
+}
+.achieveforms-container input[type="radio"] + label:before {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+.achieveforms-container input[type="checkbox"][class*="check"]:focus + label:before {
+    box-shadow: none !important;
+    border-color: var(--brand-quaternary);
+    border-width: 2px;
+}
+.achieveforms-container input[type="radio"][class*="radio"]:focus + label:before {
+    box-shadow: none !important;
+    border-color: var(--brand-quaternary);
+    border-width: 2px;
+    border-radius: 50%;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper:last-of-type,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper:last-of-type,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper:last-of-type,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper:last-of-type {
+    margin-bottom: 0;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"] + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"] + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"] + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"] + label.btn {
+    background-color: #eee;
+    border: 3px solid #eee;
+    color: var(--black);
+    margin-bottom: 1em;
+    border-radius: 0;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:hover + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:hover + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:hover + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:hover + label.btn {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    color: var(--white);
+    text-decoration: underline;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn {
+    box-shadow: none;
+    outline: 0;
+    background-color: #eee;
+    border-color: var(--brand-quaternary);
+    color: var(--black);
+    text-decoration: underline;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn {
+    box-shadow: none;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:checked + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:checked + label.btn {
+    color: var(--white);
+    background-color: #060;
+    border-color: #060;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:checked:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:checked:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:checked:focus + label.btn {
+    text-decoration: underline;
+    background-color: #060;
+    color: var(--white);
+    border-color: #1e3a1e;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:focus + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:focus + label.btn {
+    border-color: var(--brand-quaternary);
+    text-decoration: underline;
+}
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.modal-subform .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .checkbox-wrapper input[type="checkbox"]:active + label.btn,
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset .radio-wrapper input[type="radio"]:active + label.btn {
+    box-shadow: none;
+}
+.achieveforms-container fieldset .radio-wrapper input[type="radio"] + label.btn:before {
+    width: 0;
+}
+.achieveforms-container div.range-postfix,
+.achieveforms-container div.range-prefix {
+    border-radius: 0 !important;
+    border-bottom-style: solid !important;
+}
+.achieveforms-container div.noUi-handle {
+    background-color: var(--brand-secondary);
+    box-shadow: none;
+}
+.achieveforms-container .noUi-target:focus {
+    border-width: 3px;
+    border-color: var(--brand-quaternary);
+}
+.achieveforms-container .noUi-handle.noUi-handle-lower:focus {
+    background-color: var(--brand-primary);
+    border-color: transparent;
+}
+.achieveforms-container .all-sections .field .fieldContent input[type="number"].fieldInput.hasPostfix,
+.achieveforms-container .all-sections .field .fieldContent input[type="number"].fieldInput.hasPrefix {
+    border-radius: 0 !important;
+}
+.achieveforms-container div.fieldContent:focus-within .input-group-addon span.prefix,
+.achieveforms-container input[type="number"]:focus + .input-group-addon span.postfix {
+    border-width: 2px;
+    border-color: var(--brand-quaternary);
+}
+.achieveforms-container hr.non-input.line {
+    border-color: var(--brand-primary);
+}
+.achieveforms-container button[data-type="button"].button {
+    color: var(--white);
+    background-color: var(--brand-primary);
+    border: 3px solid transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+    text-shadow: none;
+    margin-bottom: var(--margin-small) !important;
+}
+.achieveforms-container button[data-type="button"].button:hover {
+    color: var(--white);
+    border-color: transparent;
+    background-color: var(--brand-secondary);
+    text-decoration: underline;
+}
+.achieveforms-container button[data-type="button"].button:focus {
+    color: var(--brand-secondary);
+    background-color: var(--white);
+    border: 3px solid var(--brand-secondary);
+    text-decoration: underline;
+    border-style: dashed;
+    outline: 0;
+}
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] li a,
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] p a {
+    color: var(--black);
+    text-decoration: underline;
+}
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] li a:hover,
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] p a:hover {
+    color: var(--brand-quaternary);
+}
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] li a:focus,
+iframe.achieveforms-iframe form.achieveform div.fieldContent span[data-type="html"] p a:focus {
+    color: var(--brand-quaternary);
+    outline: 1px dashed var(--brand-quaternary);
+    padding: 0.25em;
+}
+.achieveforms-container .resumable-drop {
+    background-color: var(--white);
+    border: 1px solid grey;
+    border-top: 1px solid grey !important;
+    border-radius: 0;
+    padding: var(--padding-medium) var(--padding-small);
+    margin-bottom: var(--margin-small);
+}
+.achieveforms-container button[type="button"].upload-button {
+    border-radius: 0;
+}
+.achieveforms-container button[type="button"].upload-button:hover {
+    background-color: var(--brand-secondary);
+}
+.achieveforms-container input[type="file"].resumable-browse-file:focus {
+    border: 1px solid var(--brand-quaternary);
+    color: var(--brand-quaternary);
+    background-color: var(--white);
+}
+.achieveforms-container .submission-message-btn-wrapper .finish.btn,
+.achieveforms-container .submission-message-btn-wrapper .save.btn {
+    color: var(--white);
+    background-color: var(--brand-quaternary);
+    border: 3px solid transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+.achieveforms-container .submission-message-btn-wrapper .finish.btn:hover,
+.achieveforms-container .submission-message-btn-wrapper .save.btn:hover {
+    color: var(--white);
+    background-color: var(--brand-secondary);
+}
+.achieveforms-container .submission-message-btn-wrapper .finish.btn:focus,
+.achieveforms-container .submission-message-btn-wrapper .save.btn:focus {
+    color: var(--brand-quaternary);
+    background-color: var(--white);
+    border: 3px dashed var(--brand-quaternary);
+}
+.achieveforms-container div[data-field-type="staticText"] .staticText p:last-of-type {
+    margin-bottom: 0;
+}
+.achieveforms-container div[data-field-type="staticText"] .staticText p a {
+    color: var(--black);
+    text-decoration: underline;
+}
+.achieveforms-container div[data-field-type="staticText"] .staticText p a:hover {
+    color: var(--brand-quaternary);
+}
+.achieveforms-container div[data-field-type="staticText"] .staticText p a:focus {
+    color: var(--brand-quaternary);
+    outline: 1px dashed var(--brand-quaternary);
+    padding: 0.25em;
+}
+.achieveforms-container .fieldContent .subform button.launchSubform {
+    color: var(--white);
+    background-color: var(--brand-primary);
+    border: 3px solid transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+    text-shadow: none;
+    margin-bottom: 1em !important;
+}
+.achieveforms-container .fieldContent .subform button.launchSubform:hover {
+    color: var(--white);
+    border-color: transparent;
+    background-color: var(--brand-secondary);
+    text-decoration: underline;
+}
+.achieveforms-container .fieldContent .subform button.launchSubform:focus {
+    color: var(--brand-secondary);
+    background-color: var(--white);
+    border: 3px solid var(--brand-secondary);
+    text-decoration: underline;
+    border-style: dashed;
+    outline: 0;
+}
+.ma-forms__sub-form {
+    background-color: #f5f5f5;
+    padding: 1.5em !important;
+    border-bottom: 3px solid var(--brand-quaternary);
+    margin-bottom: 1em;
+}
+.ma-forms__sub-form table.repeatable-table {
+    border-radius: 0 !important;
+    border: 1px solid var(--light-grey) !important;
+    background: var(--white) !important;
+    border-collapse: collapse !important;
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+}
+.ma-forms__sub-form table.repeatable-table thead {
+    font-size: 14px;
+    background-color: var(--light-grey);
+}
+.ma-forms__sub-form table.repeatable-table tbody td {
+    font-size: 14px;
+    vertical-align: middle;
+}
+.ma_share-buttons {
+    border-top: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--light-grey);
+    padding: 1em;
+}
+.ma_share-buttons h3 {
+    margin-top: 0;
+}
+.ma_share-buttons ul {
+    display: flex;
+    list-style: none;
+}
+.ma_share-buttons li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ma_share-buttons li + li {
+    margin-left: 1em;
+}
+.ma_tooltip {
+    position: relative;
+    display: inline-block;
+}
+.ma_tooltip button {
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+.ma_tooltip button i.fa {
+    font-size: 1.2rem;
+}
+.ma_tooltip button:hover {
+    color: var(--brand-primary);
+}
+.ma_tooltip button:focus {
+    color: var(--brand-primary);
+    outline: 1px solid var(--brand-primary);
+    outline-offset: 3px;
+}
+.ma_tooltip .tooltip-inner {
+    background-color: var(--brand-quaternary);
+}
+.ma_tooltip .tooltip-arrow {
+    border-top-color: var(--brand-quaternary) !important;
+    border-bottom-color: var(--brand-quaternary);
+}

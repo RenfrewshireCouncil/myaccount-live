@@ -1,0 +1,40 @@
+@import url("variables--live.css");
+
+/* || Typography Settings */
+body {
+    font-size: 1.6rem;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+p a,
+li a {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+p a:hover,
+li a:hover {
+    color: var(--brand-quaternary);
+}
+
+p a:focus,
+li a:focus {
+    color: var(--brand-quaternary);
+    outline: 1px solid var(--brand-quaternary);
+    outline-offset: 3px;
+}
+
+/* || Page Builder Sidebar */
+.page-builder__sidebar {
+    border-left: 3px solid var(--brand-secondary);
+    background-color: #f1f1f1;
+    padding: var(--padding-small);
+}
+
+.page-builder__sidebar h2,
+.page-builder__sidebar h3,
+.page-builder__sidebar h4,
+.page-builder__sidebar h5,
+.page-builder__sidebar h6 {
+    color: var(--brand-secondary);
+}

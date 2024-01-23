@@ -1,0 +1,356 @@
+/* Buttons */
+
+.mtest-btn {
+    background-color:var(--brand-quaternary); 
+    color:white; 
+    border-radius: 5px !important;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-btn:hover {
+    background-color:var(--brand-primary);
+    color:white;
+}
+
+.mtest2-btn {
+    background-color:#fdf3f8;
+    color:var(--brand-quaternary); 
+    border: 2px solid var(--brand-quaternary) !important;
+    border-radius: 5px !important;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest2-btn:hover {
+    background-color:var(--brand-quaternary);
+    color:white;
+}
+
+.mtest-place-button {
+    background-color:white;
+    color:#70ac55;
+    border: 2px solid white !important;
+    border-radius: 5px !important;
+    font-weight: 300 !important;
+    font-size: 1rem !important;
+    margin-bottom: .25rem;
+}
+
+.mtest-place-button:hover {
+    background-color:white;
+    color:#70ac55;
+}
+
+/* Pills */
+
+.mtest-pill {
+    color: white;
+    border: 0.125rem solid #936234 !important;
+    border-radius: .5rem;
+    background-color: #936234; 
+    width: 4rem;
+}
+
+.mtest-icon {
+    margin-left: .5rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    padding-left: .125rem;
+    padding-right: .125rem;
+}
+
+.mtest-pill-contour {
+    color: black;
+    border: 0.125rem solid #73ae59 !important;
+    border-radius: .5rem;
+    background-color: #e2eedd; 
+    width: 4rem;
+}
+
+.mtest-icon-contour {
+    margin-left: .5rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    padding-left: .125rem;
+    padding-right: .125rem; 
+}
+
+/* Service Card */
+
+.mtest-card { 
+    border: 0.125rem solid var(--brand-secondary) !important;
+    border-radius: 1rem;
+    background-color:#f5f5f9; 
+    padding-top: 0.6rem; 
+    padding-bottom: 0.6rem;   
+    padding-right: 1rem;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-card:hover {
+    background-color: #eadd3f;
+    border: 0.125rem solid black !important;
+    box-shadow: -5px 5px;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-card:hover .mtest-card-title {
+    color: black;
+    text-decoration: underline;
+}
+
+.mtest-card:hover .mtest-arrow {
+    color: black;
+}
+
+.mtest-card:hover .mtest-card-category {
+    color: black;
+}
+
+.mtest-card-title {
+    color:var(--brand-secondary);
+    font-size: 19px !important;
+    font-weight: 700;
+    margin-top: 1rem !important;
+}
+
+.mtest-card-category {
+    color:var(--brand-secondary);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.mtest-card-text {
+    font-size: 1rem;
+}
+
+.mtest-action {
+    font-size: 1rem !important;;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.mtest-arrow {
+    color:var(--brand-secondary);
+    margin-right: 0.25rem;
+}
+
+/* Place Card */
+
+.mtest-place-card { 
+    border: 0.125rem solid var(--brand-tertiary) !important;
+    border-radius: 1rem;
+    background-color:#f2fafa; 
+    padding-top: 0.6rem; 
+    padding-bottom: 0.6rem;   
+    padding-right: 1rem;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-place-card:hover {
+    background-color: #eadd3f;
+    border: 0.125rem solid black !important;
+    box-shadow: -5px 5px;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-place-card:hover .mtest-place-card-title {
+    color: black;
+    text-decoration: underline;
+}
+
+.mtest-place-card:hover .mtest-place-arrow {
+    color: black;
+}
+
+.mtest-place-card:hover .mtest-place-card-category {
+    color: black;
+}
+
+.mtest-place-card-title {
+    color:var(--brand-tertiary);
+    font-size: 19px !important;;
+    font-weight: 700;
+    margin-top: 1rem !important;;
+    font-weight: 700;
+}
+
+.mtest-place-card-category {
+    color:var(--brand-tertiary);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.mtest-place-card-text {
+    font-size: 1rem;
+}
+
+.mtest-place-svg {
+  margin-top: .5rem;  
+}
+
+.mtest-place-arrow {
+    color:var(--brand-tertiary);
+    margin-right: 0.25rem;
+}
+
+.mtest-place-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mtest-marker {
+    margin-right: .25rem;
+}
+
+.mtest-clock {
+    margin-right: .25rem;
+}
+
+.mtest-place-address {
+    margin-bottom: 1rem;
+}
+
+.mtest-place-datetime {
+    margin-bottom: 1rem;
+}
+
+/* Contact Card */
+
+.mtest-contact-card { 
+    border: 0.125rem solid #70ac55 !important;
+    border-radius: 1rem;
+    background-color: #f8fbf6; 
+    padding-bottom: 1rem;   
+    padding-right: 1rem;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-contact-card:hover {
+    background-color: #eadd3f;
+    border: 0.125rem solid black !important;
+    box-shadow: -5px 5px;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-contact-card:hover .mtest-contact-card-title {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.mtest-contact-card-title {
+    color: black;
+    font-size: 19px !important;;
+    font-weight: 700;
+    margin-top: 1rem !important;;
+    font-weight: 700;
+}
+
+.mtest-contact-description {
+    font-size: 1rem;
+}
+
+.mtest-contact-mobile {
+    padding-bottom: 1rem;
+}
+
+.mtest-contact-datetime {
+    padding-bottom: 1rem;
+}
+
+.mtest-mobile {
+    margin-right: .25rem;
+}
+
+.mtest-email {
+    margin-right: .25rem;
+}
+
+/* Bin card */
+
+.mtest-bin-card { 
+    border: 0.125rem solid #936234 !important;
+    border-radius: 1rem;  
+    padding-right: 1rem;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-bin-card:hover {
+    background-color: #eadd3f;
+    border: 0.125rem solid black !important;
+    box-shadow: -5px 5px;
+    -moz-transition:all 0.3s; 
+    -webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s; 
+    transition:all 0.3s;
+}
+
+.mtest-bin-card:hover .mtest-bin-card-title {
+    color: black;
+    text-decoration: underline;
+}
+
+.mtest-bin-card:hover .mtest-bin-top {
+    border: .5rem solid #eadd3f !important;
+    background-color: #eadd3f;
+}
+
+
+.mtest-bin-card-title {
+    color: black;
+    font-size: 19px !important;;
+    font-weight: 700;
+    margin-top: 1rem !important;;
+    font-weight: 700;
+}
+
+.mtest-bin-arrow {
+    color: #936234;
+}
+
+
+.mtest-bin-top {
+    border: .5rem solid #e9dfd6 !important;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: #e9dfd6;
+}
+
+.mtest-bin-icon {
+    margin-left: .5rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
